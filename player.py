@@ -32,7 +32,7 @@ ANIMATION_JUMP_RIGHT = [('%s/mario/jr.png' % ICON_DIR, 0.1)]
 ANIMATION_JUMP = [('%s/mario/j.png' % ICON_DIR, 0.1)]
 ANIMATION_STAY = [('%s/mario/0.png' % ICON_DIR, 0.1)]
 
-class Player(sprite.Sprite):
+class Player2(sprite.Sprite):
     def __init__(self, x, y):
         sprite.Sprite.__init__(self)
         self.xvel = 0

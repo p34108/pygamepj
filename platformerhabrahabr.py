@@ -118,7 +118,7 @@ def main():
         timer.tick(60)
         for e in pygame.event.get():
             if e.type == QUIT:
-                break
+                return
             if e.type == KEYDOWN and e.key == K_UP:
                 up = True
             if e.type == KEYDOWN and e.key == K_LEFT:
